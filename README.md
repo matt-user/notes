@@ -6,4 +6,5 @@ This is a collection of my notes on stuff I've learned.
 
 - [C++](./cpp.md)
 - [C](./c.md)
-- [DDIA](./ddia.md)
+- [DDIA](./ddia.md) 🚧
+- [High Performance Browser Networking](./high-performance-browser-networking.md) 🚧
