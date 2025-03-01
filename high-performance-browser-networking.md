@@ -13,7 +13,7 @@
 * cdn help with this
 * last mile latency
 
-## Building Blocks of TCP
+## 2. Building Blocks of TCP
 
 * guarantees - in order and reliable bytes
 * 3 way handshake
@@ -25,10 +25,19 @@
 * SSR - slow start restart - resets congestion window
 * bandwidth delay product - max amount of data in flight at any point
 
-## Building Blocks of UDO
+## 3. Building Blocks of UDP
 
 * datagram - pretty much the same as packet
 * no guarantee of message delivery, order, connection tracking, or congestion control
 * STUN - discover peers
 * TURN - relay peers
 
+## 4. Transport Layer Security (TLS)
+
+* SSL - oberserver can not read or modify the data, just observe its transmission
+* uses encryption, authentication, and integrity
+* handshake - negotiate encryption keys
+* signs messages with MAC
+* don't have to repeat full handshake for each connection - abbreviated handshake - start transmitting encrypted data before handshake completes
+* session identifiers - server caches session for every client - or can use session tickets
+* certificate authorities - verify certificate
