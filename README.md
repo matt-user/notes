@@ -6,4 +6,4 @@ This is a collection of my notes on stuff I've learned.
 
 - [C++](./cpp.md)
 - [C](./c.md)
-
+- [DDIA](./ddia.md)
