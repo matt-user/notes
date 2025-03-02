@@ -8,3 +8,4 @@ This is a collection of my notes on stuff I've learned.
 - [C](./c.md)
 - [DDIA](./ddia.md) 🚧
 - [High Performance Browser Networking](./high-performance-browser-networking.md) 🚧
+- [AI Engineering](./ai-engineering.md) 🚧
