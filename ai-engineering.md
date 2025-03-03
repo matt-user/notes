@@ -16,3 +16,23 @@
 * completions are based on predictions
 * parameter - variable within ML model that is updated during training
 * RAG - retrieval augmented generation, database to supplement
+
+## Chapter 4
+
+* 
+
+## Chapter 6
+
+* context from RAG and agents
+* retrieve then generate
+* retriever and generator
+* query - retrieve data chunks most relevant to the query
+* sparse vector - vector with many zeros
+* dense vector - vector with few zeros
+* term based - relevance at lexical level
+* embedding based - relevance at semantic level
+
+
+## Chapter 8
+
+* 
