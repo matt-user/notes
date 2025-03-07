@@ -9,6 +9,10 @@
 * Latency - time from source to destination of a packet
 * Bandwidth - throughput of comm path
 * delay - propagation, transmission, processing, queuing
+* propagation delay - time for signal to travel from source to destination
+* transmission delay - time to push all bits into link
+* processing delay - time to process packet at router
+* queuing delay - time to wait at router
 * user perceive lag at 100-200ms
 * cdn help with this
 * last mile latency
@@ -29,7 +33,8 @@
 
 * datagram - pretty much the same as packet
 * no guarantee of message delivery, order, connection tracking, or congestion control
-* STUN - discover peers
+* NAT traversal - inability to establish udp connection between two hosts behind same NAT
+* STUN - discover peers - keepalive pings
 * TURN - relay peers
 
 ## 4. Transport Layer Security (TLS)
@@ -41,3 +46,9 @@
 * don't have to repeat full handshake for each connection - abbreviated handshake - start transmitting encrypted data before handshake completes
 * session identifiers - server caches session for every client - or can use session tickets
 * certificate authorities - verify certificate
+* computation cost of encryption
+* can optimize handshake with CDN
+
+## 5. Introduction to wireless networks
+
+* 
