@@ -51,4 +51,34 @@
 
 ## 5. Introduction to wireless networks
 
+* network is a group of devices connected to one another
+* all comms have max channel capacity
+* dependent on signal strength and bandwidth
+* gov decides hertz freq
+* low freq - long range, larger antenna and more clients
+* s/n - signal to noise ratio
+* near far - recevier captures a strong signal and can't hear weaker signals
+* cell breathing - coverage arae expands or shrinks
+* modulation - process of digital to analog conversion
+* affect performance - distance, noise, interference intra, interference inter, power, processing
+
+## 6. WiFi
+
+* treat channel as shared medium as random access
+* listen before talk
+* also has collision detection and avoidance
+* wifi has no collision detection
+* gigabit plus throughput with ac standard
+* wifi provides no bandwidth or latency guarantees
+
+## 7. Mobile Networks
+
+This chapter was a lot of history so I skimmed.
+
+* underlying standars - peak spectral efficiency
+* Gs are a set of requirements
+* LTE - long term evolution
+* continuous reception - highest power state, established network context, allocated resources
+* short discontinuous reception
+* long discontinuous reception
 * 
