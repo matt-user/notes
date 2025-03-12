@@ -192,5 +192,18 @@
 * WAL write ahead log - append only sequence of bytes containing all writes to db
 * Follower processes log
 * Replication topology - communication paths along which writes are propagated from one node to another
+* read scaling architecture
+* disconnected operation - app continue working when network interrupt
+* read after write consistency - users should always see data they submitted themselves
+
+## Chp 6: Partitioning
+
+* partition - logical division of data
+* avoid hot spots
+* key range - partition keys which are sorted
+* hash partition - hash key and use modulo to find partition
+* document partitioned indexes - secondary index are stored in same partition as primary key and value
+* term partitioned - secondary indexes are partitioned separately
+* 
 
 

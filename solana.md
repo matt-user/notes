@@ -18,3 +18,9 @@
 * programs have access to own part of heap
 * a memory region is an account
 * CPI - one program calling another program
+
+## Pinocchio
+
+* zero copy type - data transfer between memory without cpu copying data
+* zero deps
+* 
