@@ -1,0 +1,9 @@
+# Rust for Rustaceans
+
+## Chp 1
+
+* lifetime is a region of code where a reference is valid
+
+## Chp 2
+
+* every rust value has a type
